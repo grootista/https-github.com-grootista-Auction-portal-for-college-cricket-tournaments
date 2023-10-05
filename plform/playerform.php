@@ -135,57 +135,7 @@
 
     // Handle form submission
     $("#submitDetailsButton").click(function() {
-      // Create a form element dynamically
-    //   var form = document.createElement("form");
-    //   form.method = "POST";
-    //   form.enctype="multipart/form-data";
-    //   form.action = "coord.php";
-
-    //   // Create input fields for each data
-    //   var nameInput = document.createElement("input");
-    //   nameInput.type = "hidden";
-    //   nameInput.name = "name";
-    //   nameInput.value = $("#name").val();
-    //   form.appendChild(nameInput);
-
-    //   var branchInput = document.createElement("input");
-    //   branchInput.type = "hidden";
-    //   branchInput.name = "branch";
-    //   branchInput.value = $("#branch").val();
-    //   form.appendChild(branchInput);
-
-    //   var yearInput = document.createElement("input");
-    //   yearInput.type = "hidden";
-    //   yearInput.name = "year";
-    //   yearInput.value = $("#year").val();
-    //   form.appendChild(yearInput);
-
-    //   var usnInput = document.createElement("input");
-    //   usnInput.type = "hidden";
-    //   usnInput.name = "usn";
-    //   usnInput.value = $("#usn").val();
-    //   form.appendChild(usnInput);
-
-    //   var phoneInput = document.createElement("input");
-    //   phoneInput.type = "hidden";
-    //   phoneInput.name = "phone";
-    //   phoneInput.value = $("#phone").val();
-    //   form.appendChild(phoneInput);
-
-    //   var roleInput = document.createElement("input");
-    //   roleInput.type = "hidden";
-    //   roleInput.name = "role";
-    //   roleInput.value = $("#role").val();
-    //   form.appendChild(roleInput);
-
-    //   // Handle image file
-    //   var imageInput = document.createElement("input");
-    //   imageInput.type = "file";
-    //   imageInput.name = "image";
-    //   form.appendChild(imageInput);
-
-    //   // Submit the form
-    //   document.body.appendChild(form);
+    
      $("#myForm").submit();
     });
   });
